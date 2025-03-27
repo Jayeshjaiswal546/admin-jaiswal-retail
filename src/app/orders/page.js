@@ -8,7 +8,7 @@ import { Skeleton } from '@mui/material';
 import { toast, ToastContainer } from 'react-toastify';
 import { inform, error } from '../functions/notifyUser';
 
-export default function page() {
+export default function Orders() {
   const dispatch = useDispatch();
 
   let [ordersArray, setOrdersArray] = useState();

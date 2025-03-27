@@ -9,7 +9,7 @@ import { useDispatch } from 'react-redux';
 import { toast, ToastContainer } from 'react-toastify';
 
 
-export default function page() {
+export default function AddCategory() {
     let [previewSrc, setPreviewSrc] = useState('https://cdn-icons-png.flaticon.com/512/8136/8136031.png');
     const router = useRouter()
     const dispatch = useDispatch();

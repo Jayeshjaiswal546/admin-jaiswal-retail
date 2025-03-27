@@ -9,7 +9,7 @@ import { error, success } from '../functions/notifyUser';
 import { toast, ToastContainer } from 'react-toastify';
 
 
-export default function page() {
+export default function Products() {
   const router = useRouter();
   const dispatch = useDispatch();
   let [productArray, setProductArray] = useState([]);

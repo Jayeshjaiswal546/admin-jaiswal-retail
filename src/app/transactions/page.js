@@ -7,7 +7,7 @@ import { backendBaseUrl } from '../api/api';
 import { Skeleton } from '@mui/material';
 
 
-export default function page() {
+export default function Transactions() {
   const dispatch = useDispatch();
   let [transactionsArray, setTransactionsArray] = useState();
 

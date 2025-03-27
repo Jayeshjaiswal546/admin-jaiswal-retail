@@ -10,7 +10,7 @@ import { toast, ToastContainer } from 'react-toastify';
 
 
 
-export default function page() {
+export default function Categories() {
   const dispatch = useDispatch();
   let [categoryArray, setCategoryArray] = useState([]);
   useEffect(() => {

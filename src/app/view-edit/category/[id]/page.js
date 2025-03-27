@@ -9,7 +9,7 @@ import React, { useEffect, useState } from 'react'
 import { useDispatch } from 'react-redux';
 import { toast, ToastContainer } from 'react-toastify';
 
-export default function page() {
+export default function ViewEditCategory() {
     const router = useRouter()
     const dispatch = useDispatch();
     const { id } = useParams();
