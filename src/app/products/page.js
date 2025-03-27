@@ -66,7 +66,7 @@ export default function Products() {
               ?
               productArray.map((v, i) => <ProductRow prop={v} index={i} key={i} getProductsFunction={getProducts} />)
               :
-              <tr><td colSpan={8} className='text-center py-[100px]'>'No products found'</td></tr>
+              <tr><td colSpan={8} className='text-center py-[100px]'>No products found</td></tr>
             }
           </tbody>
         </table>

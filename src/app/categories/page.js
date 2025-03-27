@@ -63,7 +63,7 @@ export default function Categories() {
               ?
               categoryArray.map((v, i) => <CategoryRow prop={v} index={i} key={i} getCategoryFunction={getCategories} />)
               :
-              <tr><td colSpan={6} className='text-center py-[100px]'>'No categories found'</td></tr>
+              <tr><td colSpan={6} className='text-center py-[100px]'>No categories found</td></tr>
             }
           </tbody>
         </table>
